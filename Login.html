@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color:#00bce2;">
 
 <head>
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body style="background-image:url(&quot;assets/img/2.png&quot;);">
+<body style="background-color:#00bce2;">
     <div class="row">
         <div class="col" style="background-color:#66116d;padding-right:0px;padding-left:24px;min-width:0%;/*max-width:30%;*/width:250px;"><button class="btn btn-primary" type="button" style="width:300px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;margin-top:5px;">About Us</button><button class="btn btn-primary" type="button" style="width:300px;background-color:#f2d13d;color:#6d3011;margin-bottom:5px;">Contact</button></div>
         <div
@@ -30,14 +30,55 @@
         <div class="avatar-bg center" style="width:100px;height:100px;"></div>
         </div>
         </div>
-        <div class="login-clean" style="width:100%;background-image:url(&quot;assets/img/2.png&quot;);background-size:cover;height:804px;">
-            <form method="post" style="width:335px;background-color:#fc9bb2;">
-                <h2 class="sr-only">Login Form</h2>
-                <div class="avatar-bg center" style="width:100px;height:100px;margin-left:60px;"></div>
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-                <div class="form-group"><input class="form-control" type="text" name="username" placeholder="Username"></div>
-                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div><a href="#" class="forgot">Forgot your email or password?</a></form>
+        <div class="container profile profile-view" id="profile" style="background-color:#9bc4e2;margin-top:0px;">
+            <div class="row">
+                <div class="col-md-12 alert-col relative">
+                    <div class="alert alert-info absolue center" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span>Profile save with success</span></div>
+                </div>
+            </div>
+            <form>
+                <div class="form-row profile-row">
+                    <div class="col-md-4 relative">
+                        <div class="avatar">
+                            <div class="avatar-bg center"></div>
+                        </div><input type="file" class="form-control" name="avatar-file"></div>
+                    <div class="col-md-8">
+                        <h1 style="text-align:right;font-family:'Architects Daughter', cursive;font-size:50px;">ثبت نام کاربر</h1>
+                        <hr>
+                        <div class="form-row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group" style="text-align:right;"><label style="font-size:20px;">نام</label><input class="form-control" type="text" name="firstname"></div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group" style="text-align:right;"><label style="font-size:20px;">نام خانوادگی</label><input class="form-control" type="text" name="lastname"></div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group" style="text-align:right;"><label style="font-size:20px;">&nbsp;نام کاربری</label><input class="form-control" type="text" name="firstname"></div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group" style="text-align:right;"><label style="font-size:20px;">شماره تلفن</label><input class="form-control" type="tel"></div>
+                            </div>
+                        </div>
+                        <div class="form-group"><label style="font-size:20px;">Email </label><input class="form-control" type="email"></div>
+                        <div class="form-group" style="text-align:right;"><label style="font-size:20px;">آدرس</label><input class="form-control" type="email" autocomplete="off" required="" name="email" style="height:70px;"></div>
+                        <div class="form-row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group"><label style="font-size:20px;">Password </label><input class="form-control" type="password" name="password" autocomplete="off" required=""></div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group"><label style="font-size:20px;">Confirm Password</label><input class="form-control" type="password" name="confirmpass" autocomplete="off" required=""></div>
+                            </div>
+                        </div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">I accept terms and conditions</label></div>
+                        <hr>
+                        <div class="form-row">
+                            <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
