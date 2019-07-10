@@ -16,18 +16,18 @@
 
 <body style="background-color:#00b760;">
     <div class="row">
-        <div class="col" style="background-color:#66116d;padding-right:0px;padding-left:24px;min-width:0%;/*max-width:30%;*/width:250px;"><button class="btn btn-primary" type="button" style="width:300px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;margin-top:5px;">About Us</button><button class="btn btn-primary" type="button" style="width:300px;background-color:#f2d13d;color:#6d3011;margin-bottom:5px;">Contact</button></div>
+        <div class="col" style="background-color:#66116d;padding-right:0px;padding-left:24px;min-width:0%;/*max-width:30%;*/width:250px;"><button class="btn btn-primary" type="button" style="width:200px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;margin-top:5px;margin-left:50px;">About Us</button><button class="btn btn-primary" type="button" style="width:200px;background-color:#f2d13d;color:#6d3011;margin-bottom:5px;margin-left:50px;">Contact</button></div>
         <div
             class="col" style="background-color:#66116d;padding-left:0px;width:auto;padding-right:0px;height:auto;">
-            <h1 style="width:auto;font-family:'Architects Daughter', cursive;color:#c40f89;margin-bottom:0px;font-size:50px;margin-top:5px;text-align:right;"><strong>Professional&nbsp;</strong><br></h1>
+            <h1 style="width:auto;font-family:'Architects Daughter', cursive;color:#c40f89;margin-bottom:0px;font-size:50px;margin-top:5px;text-align:right;margin-left:77px;"><strong>Professional&nbsp;</strong><br></h1>
     </div>
-    <div class="col" style="background-color:#66116d;padding-left:0px;width:auto;">
-        <h1 style="width:auto;font-family:'Architects Daughter', cursive;color:#c40f89;margin-bottom:0px;font-size:50px;margin-top:5px;text-align:left;"><strong>Dresses</strong></h1>
+    <div class="col" style="background-color:#66116d;padding-left:0px;width:100px;">
+        <h1 style="width:auto;font-family:'Architects Daughter', cursive;color:#c40f89;margin-bottom:0px;font-size:50px;margin-top:5px;text-align:left;margin-left:77px;"><strong>Dresses</strong></h1>
     </div>
-    <div class="col" style="width:auto;height:auto;background-color:#66116d;padding-left:0px;padding-right:0px;"><button class="btn btn-primary" type="button" style="width:300px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;margin-top:5px;">Sign up</button><button class="btn btn-primary" type="button" style="width:300px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;">Login</button></div>
+    <div class="col" style="width:230px;height:auto;background-color:#66116d;padding-left:0px;padding-right:0px;"><button class="btn btn-primary" type="button" onclick="window.location.href = 'MainSignup.html';" style="width:200px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;margin-top:5px;">Sign up</button><button class="btn btn-primary" type="button" onclick="window.location.href = 'Login.html';" style="width:200px;background-color:#f2d13d;margin-bottom:5px;color:#6d3011;">Login</button></div>
     <div
-        class="col" style="width:200px;background-color:#66116d;margin-right:-206px;margin-left:-100px;">
-        <div class="avatar-bg center" style="width:100px;height:100px;"></div>
+        class="col" style="width:300px;background-color:#66116d;margin-right:0px;margin-left:-100px;">
+        <div class="avatar-bg center" style="width:94px;height:94px;margin-left:63px;"></div>
         </div>
         </div>
         <div class="container profile profile-view" id="profile">
@@ -82,7 +82,7 @@
                         <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">I accept terms and conditions</label></div>
                         <hr>
                         <div class="form-row">
-                            <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
+                            <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" onclick="window.location.href = 'mainPage.html';" type="submit">SAVE </button><button class="btn btn-danger form-btn" onclick="window.location.href = 'MainSignup.html';" type="reset">CANCEL </button></div>
                         </div>
                     </div>
                 </div>
